@@ -14,9 +14,11 @@
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
     "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
     "prettier": "1.14.3",
+    "prop-types": "latest",
+    "style-loader": "^0.23.1",
     "webpack": "^4.23.1",
-    "webpack-cli": "^3.1.2",
-    "prop-types": "latest"
+    "webpack-cli": "^3.1.2"
   }
 }

@@ -1,0 +1,22 @@
+.main {
+    display: grid;
+    grid-template-columns: [settings-begin] 200px [settings-end] auto [layout-end];
+    grid-template-rows: 50px auto;
+}
+
+.settings {
+    grid-column: settings-begin / settings-end;
+    grid-row: 1 / 3;
+}
+
+.important {
+    grid-column: settings-end / layout-end;
+    grid-row: 1 / 2;
+}
+
+.unimportant {
+    grid-column: settings-end / layout-end;
+    grid-row: 2 / 3;
+}
+
+
